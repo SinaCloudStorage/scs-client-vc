@@ -49,6 +49,7 @@
 #include "Log4cplusSwitch.h"
 #include <string>
 #include <vector>
+#include <map>
 
 
 #ifndef snprintf

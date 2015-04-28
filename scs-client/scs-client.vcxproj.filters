@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{03943800-1247-445c-8bd6-16fe120d7c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{6dff2ce1-bfaf-4893-99ee-73045823165f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{a8aeac4f-fce7-4ddc-9585-b4d0fd47a17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ButtonST">
+      <UniqueIdentifier>{0d0ecc01-d569-4bbb-9ba9-5b503e07f9ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scs-client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scs-clientDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Log4cplusSwitch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateBucketDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http_request.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="http_handler_base.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="multi_http.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json\autolink.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_batchallocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="TransListItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TransListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="speed_calculator.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="base\basictypes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\string_number_conversions.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="api_helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListItemDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AclItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AclListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>ButtonST</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>ButtonST</Filter>
+    </ClInclude>
+    <ClInclude Include="base\aes.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scs-client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scs-clientDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateBucketDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OptDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="multi_http.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskDef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="TransListItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TransListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="speed_calculator.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="base\string_number_conversions.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="ListItemDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AclItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AclListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>ButtonST</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>ButtonST</Filter>
+    </ClCompile>
+    <ClCompile Include="base\aes.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="scs-client.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\scsclient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="json\json_internalarray.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_internalmap.inl">
+      <Filter>json</Filter>
+    </None>
+    <None Include="json\json_valueiterator.inl">
+      <Filter>json</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\scs-client.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\list.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\list-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\add.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\add-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\download.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\download-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\refresh.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\refresh-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\remove.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\remove-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rename.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\rename-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\upload.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\upload-c.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
